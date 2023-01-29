@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Sofia+Sans:ital,wght@1,200&display=swap');
+
+body{
+    font-family: 'Sofia Sans', sans-serif;
+    text-align: center;
+}
+
+main{
+    margin: 2% auto;
+}
+
+button{
+        width: 25%;
+        cursor: pointer;
+        border-radius: 8px;
+        color: #fff;
+        background: #697cb6;
+        border: 0;
+        padding: 15px 30px;
+        font-size: 16px;
+        box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+        margin: 20px 15px;
+}
+
+#punchlinebtn{
+    display: none;
+    text-align: center;
+}
+
+#resetbtn{
+    display: none;
+    text-align: center;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- CSS stylesheet -->
+        <link rel="stylesheet" href="src/styles.css">
+        <title>Tell a joke</title>
+    </head>
+<body> 
+    <main>
+        <div>
+            <img src="https://media1.giphy.com/media/9PvkZLdw8C8hzq5R0O/giphy.gif?cid=6c09b952r3jn964q7ki1yzs6fa67ge0h6cautw5ixj0btxqw&rid=giphy.gif&ct=s" alt="joke-img" height="200px" id="joke-img"/>
+        </div>
+        <div>
+            <button onclick="tellAJoke()">Tell a joke</button>
+            <p id="setup"></p>
+            <button id="punchlinebtn">Punchline</button>
+            <p class="punchline"></p>
+            <button id="resetbtn" onClick="document.location.reload()">RESET</button>
+        </div>
+    </main>
+      
+    <script src="src/script.js"></script>
+</body>
+</html>
